@@ -8,6 +8,39 @@
     <title>Heart And Soul</title>
 </head>
 <body>
-    
+    <header class="grid-hijo grid-header">
+        <h1 class="logo-titulo">Heart and Soul</h1>
+        <nav class="nav-sitio">
+            <ul class="nav-lista">
+                <li class="nav-item"> <a href="index.html"class="link-nav">Inicio</a>
+                <ul class="sub-menu">
+                    <li class="sub-nav-item"> <a href="index.html">Registrate</a></li>
+                </ul>
+                </li>
+                <li class="nav-item"> <a href="turno.html"class="link-nav">Turno</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Finaliza nav-->
+<!--Empieza solicitud de turno-->
+<main class="grid-hijo grid-main">
+    <form class="form-turno">
+        <h4 class="tit-form-turno">Elegi Tu Turno</h4>
+        <form class="turno">
+            <label for="elegi-turno">Buscar Turno:</label>
+            <input id="elegi-turno" type="datetime-local" name="date">
+        </form>
+        <div class="acep-cond">
+            <div class="input.aceptar">Acepta teriminos y condiciones</div>
+            <input type="checkbox" name="acepta" value="1">
+        </div>
+        <div class="confirm-turno">
+            <input type="submit" value="Confirmar Turno">
+            <input type="reset" value="Limpiar">
+        </div>  
+    </form>
+</main>
+<!--Finaliza solicitud de turno-->
+<!--Finaliza nav-->
 </body>
 </html>
